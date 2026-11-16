@@ -1,0 +1,35 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*
+secrets/
+secret/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary outputs and test artifacts
+*.tmp
+*.bak
+*.swp
+*.log
+/tmp/
+/test-output/
